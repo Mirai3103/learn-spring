@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /api/v1
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/learnspring
+    username: postgres
+    password: root
+    pool-size: 30
